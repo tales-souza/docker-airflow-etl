@@ -220,7 +220,7 @@ def insertDataInDw(**context):
 
  
 insertDataInDw = PythonOperator(
-    task_id="insetDataInDw",
+    task_id="insertDataInDw",
     python_callable=insertDataInDw,
     provide_context=True,
     dag=dag
